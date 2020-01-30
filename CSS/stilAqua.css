@@ -1,0 +1,710 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-image: url(../IMG/aquawomen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1050px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navOne{
+    height: 100px;
+}
+
+.navTwo{
+    height: 100px;
+}
+
+.navOneText{
+    float: left;
+    padding: 10px 0;
+}
+
+.navOneText>p{
+    color: white;
+}
+
+.navOneText p>a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navOneLinks{
+    float: right;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+.navOneLinks>a{
+    color: white;
+    text-decoration: none;
+}
+
+.colorLine{
+    padding: 0 10px;
+    color: white;
+}
+
+.navTwoLogo{
+    float: left;
+    padding: 10px 0;
+}
+
+.navTwoLinks{
+    float: right;
+}
+
+.navTwoLinks ul>li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navTwoLinks ul li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.lineSpan{
+    padding: 0 10px;
+}
+
+.navTwoLinks>ul{
+    padding: 40px 0;
+}
+
+.navTwoLinks ul li a:hover{
+    border-bottom: 4px solid #74e1fa;
+}
+
+#puurZuiver{
+    margin: 20px 0;
+    display: flex;
+}
+
+.rowPurOne{
+    flex: 50%;
+}
+
+.rowPurTwo{
+    flex: 50%;
+}
+
+.rowPurTwo>h1{
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.rowPurTwo>h3{
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.rowPurTwo>p{
+    color: white;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.rowPurTwo p>i{
+    color: #5cbb74 !important;
+}
+
+.rowPurTwo>h4{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.btnPuur{
+    background-color: #5cbb74;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#persons{
+    text-align: center;
+    padding: 30px 200px;
+}
+
+.imgPers{
+    width: 80px;
+}
+
+.personOne>h4{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.personOne>p{
+    color:white;
+}
+
+#video{
+    background-color: #e5eef3;
+    height: 500px;
+}
+
+.videos{
+    display: flex;
+}
+
+.videoOne{
+    flex: 40%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.videoOne>h1{
+    color: #2c4477;
+    padding: 20px 0;
+}
+
+.videoTwo{
+    flex: 40%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.videoTwo>h1{
+    color: #2c4477;
+    padding: 20px 0;
+}
+
+.cooler{
+    text-align: center;
+}
+
+.cooler>img{
+    padding: 20px 0;
+}
+
+.cooler>h2{
+    color: #2c4477;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.cooler>p{
+    color: #2c4477;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.priceUnder{
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.priceCol{
+    color: #31a1e5;
+    font-size: 20px;
+}
+
+.ervaringen{
+    display: flex;
+    height: 800px;
+}
+
+.imgErv{
+    flex: 50%;
+    background-image: url(../IMG/water-woman.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textErv{
+    flex: 50%;
+    background-color: #c1d2e8;
+    text-align: center;
+}
+
+.textErv>h2{
+    color: #2c4477;
+    font-size: 25px;
+    padding-top: 270px;
+    padding-bottom: 20px;
+}
+
+.textErvOne>p{
+    padding: 10px 100px;
+}
+
+.textErvTwo>p{
+    padding: 10px 100px;
+}
+
+.textErvThree>p{
+    padding: 10px 100px;
+}
+
+footer{
+    background-image: url(../IMG/aquafooter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cover{
+    background: rgba(0,0,0,0.5);
+}
+
+.footerHead{
+    display: flex;
+}
+
+.footerHead>p{
+    font-size: 30px;
+    color: white;font-family: monospace;
+    padding: 60px 0;
+}
+
+.btnCover{
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #5cbb74;
+    color: white;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+
+.hrFooter{
+    height: 2px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+#secFooter{
+    display: flex;
+}
+
+.secOneFoot>ul{
+    margin: 10px 0;
+}
+
+.secOneFoot ul>li{
+    list-style: none;
+    padding: 15px 0;
+}
+
+.secOneFoot ul li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.secTwoFoot{
+    margin: 0 75px;
+}
+
+.secTwoFoot>img{
+    padding: 20px 0;
+}
+
+.addres{
+    color: white;
+    padding: 10px 0;
+}
+
+.contact{
+    color: white;
+    padding: 10px 0;
+}
+
+.contact>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.addcont{
+    color: white;
+    padding: 10px 0;
+}
+
+.socIc>a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.secThreeFoot>h2{
+    text-align: center;
+    color: white;
+}
+
+form input[type=text]{
+    padding: 10px 20px;
+    width: 298px;
+    margin: 20px 0;
+}
+
+form input[type=email]{
+    padding: 10px 20px;
+    width: 298px;
+    margin: 20px 0;
+}
+
+form textarea{
+    width: 600px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+form button{
+    width: 150px;
+    height: 40px;
+    background-color: #5cbb74;
+    color: white;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+#copy{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:375px){
+    .container{
+        width: 375;
+        margin: 0 auto;
+    }
+    .navOneText,
+    .navOneLinks,
+    .navTwoLinks{
+        float: none;
+    }
+    .navOneText>p{
+       padding: 0 10px;
+    }
+    .navTwoLogo{
+        display: none;
+    }
+    .navOneLinks>a{
+        margin: 0;
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    .navTwoLinks ul{
+        margin-top: 50px;
+        padding: 30px 5px;
+    }
+    .navTwoLinks ul li>a{
+        font-size: 12px;
+    }
+    .navTwoLinks ul li{
+        margin: 0;
+        padding: 0;
+    }
+    .lineSpan{
+        padding: 2px;
+    }
+    #puurZuiver{
+        flex: none;   
+    }
+    .rowPurOne{
+        display: none;
+    }
+
+    .rowPurTwo{
+        
+    }
+    .rowPurTwo>h1{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .rowPurTwo>h3{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .rowPurTwo>p{
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    .rowPurTwo>h4{
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .btnPuur{
+        margin-left: 5px;
+    }
+    #persons{
+    text-align: center;
+    padding: 30px 0px;
+    }
+
+    .imgPers{
+        width: 60px;
+    }
+
+    .personOne>h4{
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .personOne>p{
+        font-size: 12px;
+    }
+    #video{
+        height: 550px;
+    }
+
+    .videos{
+        flex-wrap: wrap;
+    }
+
+    .videoOne{
+        flex: none;
+        padding: 0;
+        text-align: center;
+    }
+    .videoOne>iframe{
+        width: 350px;
+        height: 200px;
+        padding-left: 12px;
+    }
+    
+    .videoTwo>iframe{
+        width: 350px;
+        height: 200px;
+        padding-left: 12px;
+    }
+
+    .videoOne>h1{
+        color: #2c4477;
+        padding: 20px 0;
+        font-size: 16px;
+    }
+
+    .videoTwo{
+        flex: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .videoTwo>h1{
+        color: #2c4477;
+        padding: 20px 0;
+        font-size: 16px;
+    }
+    .cooler{
+        text-align: center;
+    }
+
+    .cooler>img{
+        width: 250px;
+        padding: 20px 0;
+    }
+
+    .cooler>h2{
+        color: #2c4477;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .cooler>p{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ervaringen{
+        flex-wrap: wrap;
+        height: 550px;
+    }
+
+    .imgErv{
+        width: 100%;
+        height: 350px;
+        flex: none;
+        background-image: url(../IMG/water-woman.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .textErv{
+        width: 100%;
+        flex: none;
+        background-color: #c1d2e8;
+        text-align: center;
+    }
+
+    .textErv>h2{
+        color: #2c4477;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .textErvOne>p{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .textErvTwo>p{
+        padding: 0;
+    }
+
+    .textErvThree>p{
+        padding: 0;
+    }
+    
+    .footerHead{
+        flex-wrap: wrap;
+    }
+
+    .footerHead>p{
+        margin: 10px 0;
+        font-size: 20px;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .btnCover{
+        margin: 10px auto;
+    }
+
+    .hrFooter{
+        height: 2px;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+
+    #secFooter{
+        flex-wrap: wrap;
+    }
+
+    .secOneFoot>ul{
+        margin: 10px auto;
+    }
+
+    .secOneFoot ul>li{
+        list-style: none;
+        padding: 5px 5px;
+    }
+
+    .secOneFoot ul li>a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .secTwoFoot{
+        margin: 0 auto;
+    }
+
+    .secTwoFoot>img{
+        padding: 20px 0;
+    }
+
+    .addres{
+        color: white;
+        padding: 10px 0;
+    }
+
+    .contact{
+        color: white;
+        padding: 10px 0;
+    }
+
+    .contact>a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+
+    .addcont{
+        color: white;
+        padding: 10px 0;
+    }
+
+    .socIc>a{
+        text-decoration: none;
+        color: white;
+        padding: 0 10px;
+    }
+
+    .secThreeFoot>h2{
+        font-size: 20px;
+        padding: 20px 0;
+        text-align: center;
+        color: white;
+    }
+    form{
+        margin-left: 12px;    
+    }
+    
+    form input[type=text]{
+        padding: 10px 20px;
+        width: 350px;
+        margin: 5px 0;
+    }
+
+    form input[type=email]{
+        padding: 10px 20px;
+        width: 350px;
+        margin: 5px 0;
+    }
+
+    form textarea{
+        width: 350px;
+        padding: 10px 20px;
+        margin: 5px 0;
+    }
+
+    form button{
+        width: 150px;
+        height: 40px;
+        background-color: #5cbb74;
+        color: white;
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+
+    #copy{
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+
+    
+}
+
+
+
+
+
+
+
